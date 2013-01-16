@@ -1549,7 +1549,7 @@ else
 			}
 			else
 			{
-				error_log('Failed to determine HOME directory after trying "' . $dir . '" (exit code ' . $exit . ')');
+				// error_log('Failed to determine HOME directory after trying "' . $dir . '" (exit code ' . $exit . ')');
 				$_ENV['HOME'] = false;
 			}
 		}
